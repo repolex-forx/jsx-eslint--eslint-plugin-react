@@ -1,0 +1,39 @@
+[2026-09-17T15:11:09Z] === ENRICH ITERATION 1 START | repo=jsx-eslint/eslint-plugin-react sha=2c98b83c ===
+[2026-09-17T15:11:09Z] [iter=1] PHASE START: enrich repo=jsx-eslint/eslint-plugin-react sha=2c98b83c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/2c98b83c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/2c98b83c451a4297edf1787d9a616e50687e27e8.nq.gz
+[2026-09-17T15:12:04Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=86 MB
+[2026-09-17T15:12:17Z] [iter=1] AST store loaded triples=1614055 load_secs=12 mem_mb=966 MB
+[2026-09-17T15:12:17Z] [iter=1] Step 2: Finding LSP targets mem_mb=966 MB
+[2026-09-17T15:12:17Z] [iter=1] LSP targets found call_sites=6172 imports=0 extends=1 implements=0 secs=0
+[2026-09-17T15:12:17Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=966 MB
+[2026-09-17T15:12:22Z] [iter=1] Position index built positions=124123 nodes_with_types=131641 secs=5 mem_mb=966 MB
+[2026-09-17T15:12:22Z] [iter=1] Step 3: Starting LSP resolution mem_mb=966 MB already_completed_types=[] already_completed_files=0
+[2026-09-17T15:12:22Z] [iter=1] Resolving target type target_type=call_site count=6172
+[2026-09-17T15:12:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=0 resolved=0 errors=0 current=lib/rules/button-has-type.js
+[2026-09-17T15:13:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.0 files_done=3 resolved=16 errors=106 current=tests/lib/rules/no-deprecated.js
+[2026-09-17T15:14:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=7 resolved=58 errors=329 current=lib/rules/display-name.js
+[2026-09-17T15:14:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.7 files_done=11 resolved=66 errors=425 current=tests/lib/rules/jsx-closing-bracket-location.js
+[2026-09-17T15:15:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=18 resolved=90 errors=541 current=tests/lib/rules/jsx-no-leaked-render.js
+[2026-09-17T15:16:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.9 files_done=22 resolved=115 errors=634 current=lib/rules/jsx-max-props-per-line.js
+[2026-09-17T15:16:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.7 files_done=30 resolved=189 errors=771 current=lib/rules/default-props-match-prop-types.js
+[2026-09-17T15:17:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=36 resolved=198 errors=867 current=lib/rules/jsx-fragments.js
+[2026-09-17T15:18:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.1 files_done=44 resolved=238 errors=1019 current=tests/lib/rules/jsx-newline.js
+[2026-09-17T15:18:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=51 resolved=247 errors=1123 current=tests/util/jsx.js
+[2026-09-17T15:19:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=54 resolved=291 errors=1246 current=lib/rules/forbid-elements.js
+[2026-09-17T15:20:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=60 resolved=343 errors=1347 current=tests/util/ast.js
+[2026-09-17T15:20:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.4 files_done=63 resolved=369 errors=1439 current=tests/lib/rules/destructuring-assignment.js
+[2026-09-17T15:21:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.0 files_done=69 resolved=392 errors=1529 current=tests/lib/rules/jsx-no-undef.js
+[2026-09-17T15:21:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=10.8 files_done=77 resolved=429 errors=1673 current=lib/rules/no-deprecated.js
+[2026-09-17T15:22:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.4 files_done=83 resolved=474 errors=1775 current=tests/lib/rules/no-did-update-set-state.js
+[2026-09-17T15:23:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=11.9 files_done=94 resolved=499 errors=1871 current=tests/lib/rules/require-default-props.js
+[2026-09-17T15:23:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.7 files_done=111 resolved=529 errors=2010 current=lib/util/props.js
+[2026-09-17T15:24:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.2 files_done=125 resolved=554 errors=2095 current=lib/rules/no-multi-comp.js
+[2026-09-17T15:24:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=13.8 files_done=133 resolved=584 errors=2190 current=lib/util/defaultProps.js
+[2026-09-17T15:25:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=142 resolved=598 errors=2290 current=lib/rules/jsx-no-useless-fragment.js
+[2026-09-17T15:25:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.8 files_done=156 resolved=614 errors=2376 current=tests/lib/rules/jsx-curly-newline.js
+[2026-09-17T15:26:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=15.3 files_done=191 resolved=657 errors=2459 current=lib/util/isCreateElement.js
+[2026-09-17T15:26:58Z] [iter=1] Target type resolved target_type=call_site resolved=698 errors=2539 secs=876 mem_mb=966 MB
+[2026-09-17T15:26:58Z] [iter=1] Resolving target type target_type=extends_clause count=1
+[2026-09-17T15:26:59Z] [iter=1] Target type resolved target_type=extends_clause resolved=1 errors=0 secs=1 mem_mb=966 MB
+[2026-09-17T15:27:07Z] [iter=1] Step 5: Writing final enrichment file triples=167005
+[2026-09-17T15:27:09Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/2c98b83c451a4297edf1787d9a616e50687e27e8.nq.gz size_kb=3289
+[2026-09-17T15:27:09Z] [iter=1] PHASE END: enrich elapsed_s=961 elapsed_min=16.0 total_triples=167005
